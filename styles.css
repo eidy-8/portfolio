@@ -1,19 +1,19 @@
-* {
+* { /*Definição de fonte para todos os elementos*/
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+body { /*Foi feito apenas um arquivo CSS para todos os HTML*/
+    display: flex; /*Utilizei a técnica Flexbox para este projeto*/
+    flex-direction: column; /*Organização com direção de coluna*/
     min-height: 100vh;
-    margin: 0 auto;
-    max-width: 1400px;
-    background-color: black;
+    margin: 0 auto; /*Centralização do corpo da página para visual de landing page*/
+    max-width: 1400px;/*O máximo de largura que o corpo da página pode chegar*/
+    background-image: url("/img/background-tree-wood-boards.png"); /*Imagem de fundo da página referenciado direto do diretório*/
 }
 
 .container {
-    flex: 1; /* Permite que o contêiner ocupe o espaço vertical restante */
+    flex: 1; /*Permite que o contêiner ocupe o espaço vertical restante*/
     display: flex;
     flex-direction: column;
     background-color: lightgray;
@@ -21,7 +21,7 @@ body {
 
 header {
     display: flex;
-    align-items: center;
+    align-items: center; /*Alinhamento vertical*/
     background-color: #1F2937;
     color: white;
     justify-content: space-between;
@@ -29,24 +29,24 @@ header {
 }
 
 h1 {
-    padding-left: 40px;
+    padding-left: 40px; /*Adiciona um espaçamento na esquerda*/
 }
 
 nav {
     display: flex;
 }
 
-a {
+#header-link {
     color: white;
     padding: 10px;
     padding-right: 40px;
-    text-decoration: none;
+    text-decoration: none; /*Remoção de linha dos links*/
 }
 
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /*Alinhamento horizontal*/
     flex-direction: column;
 }
 
@@ -54,23 +54,23 @@ main {
     margin: 40px;
     width: 300px;
     height: 300px;
-    border-radius: 50%;
-    border: 3px solid #1F2937;
+    border-radius: 50%; /*Deixa a imagem mais arredondada*/
+    border: 3px solid #1F2937; /*Adiciona borda para a imagem centralizada*/
 }
 
-h4 {
-    text-align: center;
+h3 {
+    text-align: center; /*Alinha o texto*/
     max-width: 1000px;
-    margin: 50px;
+    margin: 30px;
 }
 
 section {
     display: flex;
     justify-content: space-around;
-    margin: 50px;
+    margin: 50px; /*Espaçamento de todas as direções*/
 }
 
-#imagem-de-tecnologia {
+#imagem-de-tecnologia { /*Definição de tamanho dos ícones*/
     width: 150px;
     max-width: 100%;
     height: auto;
@@ -85,8 +85,12 @@ footer {
     height: 80px;
 }
 
+#link {
+    color: black;
+}
 
-@media (max-width: 767px) {
+
+@media (max-width: 767px) { /*Códigos para ajustar os elementos e deixar a página responsiva, adaptando o layout para celulares e tablets*/
     header {
         flex-direction: column;
         text-align: center;
@@ -97,7 +101,7 @@ footer {
         flex-direction: column; 
     }
 
-    a {
+    #header-link {
         padding: 5px;
         margin: 5px; 
     }
@@ -110,4 +114,11 @@ footer {
     #imagem-de-tecnologia {
         margin: 5px;
     }
+
+    #link,
+    h4 {
+        display: flex;
+        text-align: center;
+    }
+
 }
