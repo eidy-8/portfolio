@@ -9,7 +9,7 @@ body { /*Foi feito apenas um arquivo CSS para todos os HTML*/
     min-height: 100vh;
     margin: 0 auto; /*Centralização do corpo da página para visual de landing page*/
     max-width: 1400px;/*O máximo de largura que o corpo da página pode chegar*/
-    background-image: url("./img/background-tree-wood-boards.png"); /*Imagem de fundo da página referenciado direto do diretório*/
+    background-image: url("./img/background.png"); /*Imagem de fundo da página referenciado direto do diretório*/
 }
 
 .container {
