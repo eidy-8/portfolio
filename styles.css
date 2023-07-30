@@ -29,7 +29,7 @@ header {
 }
 
 h1 {
-    padding-left: 40px; /*Adiciona um espaçamento na esquerda*/
+    margin-left: 40px; /*Adiciona um espaçamento na esquerda*/
 }
 
 nav {
@@ -39,7 +39,7 @@ nav {
 #header-link {
     color: white;
     padding: 10px;
-    padding-right: 40px;
+    margin-right: 40px;
     text-decoration: none; /*Remoção de linha dos links*/
 }
 
@@ -119,6 +119,10 @@ footer {
     h4 {
         display: flex;
         text-align: center;
+    }
+
+    h1{
+        margin-right: 40px;
     }
 
 }
