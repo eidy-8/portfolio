@@ -85,11 +85,6 @@ footer {
     height: 80px;
 }
 
-#link {
-    color: black;
-}
-
-
 @media (max-width: 767px) { /*Códigos para ajustar os elementos e deixar a página responsiva, adaptando o layout para celulares e tablets*/
     header {
         flex-direction: column;
