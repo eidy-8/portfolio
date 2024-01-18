@@ -1,19 +1,19 @@
-* { /*Definição de fonte para todos os elementos*/
+* { 
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  
 }
 
-body { /*Foi feito apenas um arquivo CSS para todos os HTML*/
-    display: flex; /*Utilizei a técnica Flexbox para este projeto*/
-    flex-direction: column; /*Organização com direção de coluna*/
+body { 
+    display: flex; 
+    flex-direction: column; 
     min-height: 100vh;
-    margin: 0 auto; /*Centralização do corpo da página para visual de landing page*/
-    max-width: 1400px;/*O máximo de largura que o corpo da página pode chegar*/
-    background-image: url("./img/background.png"); /*Imagem de fundo da página referenciado direto do diretório*/
+    margin: 0 auto; 
+    max-width: 1400px;
+    background-image: url("./img/background.png");
 }
 
 .container {
-    flex: 1; /*Permite que o contêiner ocupe o espaço vertical restante*/
+    flex: 1; 
     display: flex;
     flex-direction: column;
     background-color: lightgray;
@@ -21,7 +21,7 @@ body { /*Foi feito apenas um arquivo CSS para todos os HTML*/
 
 header {
     display: flex;
-    align-items: center; /*Alinhamento vertical*/
+    align-items: center; 
     background-color: #1F2937;
     color: white;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header {
 }
 
 h1 {
-    margin-left: 40px; /*Adiciona um espaçamento na esquerda*/
+    margin-left: 40px; 
 }
 
 nav {
@@ -40,13 +40,13 @@ nav {
     color: white;
     padding: 10px;
     margin-right: 40px;
-    text-decoration: none; /*Remoção de linha dos links*/
+    text-decoration: none; 
 }
 
 main {
     display: flex;
     align-items: center;
-    justify-content: center; /*Alinhamento horizontal*/
+    justify-content: center; 
     flex-direction: column;
 }
 
@@ -54,12 +54,12 @@ main {
     margin: 40px;
     width: 300px;
     height: 300px;
-    border-radius: 50%; /*Deixa a imagem mais arredondada*/
-    border: 3px solid #1F2937; /*Adiciona borda para a imagem centralizada*/
+    border-radius: 50%; 
+    border: 3px solid #1F2937; 
 }
 
 h3 {
-    text-align: center; /*Alinha o texto*/
+    text-align: center; 
     max-width: 1000px;
     margin: 30px;
 }
@@ -67,10 +67,10 @@ h3 {
 section {
     display: flex;
     justify-content: space-around;
-    margin: 50px; /*Espaçamento de todas as direções*/
+    margin: 50px; 
 }
 
-#imagem-de-tecnologia { /*Definição de tamanho dos ícones*/
+#imagem-de-tecnologia { 
     width: 150px;
     max-width: 100%;
     height: auto;
@@ -85,7 +85,7 @@ footer {
     height: 80px;
 }
 
-@media (max-width: 767px) { /*Códigos para ajustar os elementos e deixar a página responsiva, adaptando o layout para celulares e tablets*/
+@media (max-width: 767px) { 
     header {
         flex-direction: column;
         text-align: center;
