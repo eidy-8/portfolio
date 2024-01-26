@@ -9,3 +9,4 @@ Este é um projeto pessoal e, portanto, não são aceitas contribuições extern
 ## Licença
 
 Este projeto está licenciado sob a Licença [MIT](https://opensource.org/licenses/MIT).
+git
